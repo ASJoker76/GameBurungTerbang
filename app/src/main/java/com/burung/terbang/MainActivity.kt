@@ -123,12 +123,12 @@ fun FlappyBirdGame() {
             // Gambar pipa
             pipes.forEach { pipe ->
                 drawRoundRect(
-                    color = Color(0xFF866286),
+                    color = Color(0xFFD47984),
                     topLeft = androidx.compose.ui.geometry.Offset(pipe.x, 0f),
                     size = androidx.compose.ui.geometry.Size(100f, pipe.gapY - 150)
                 )
                 drawRoundRect(
-                    color = Color(0xFF866286),
+                    color = Color(0xFFD47984),
                     topLeft = androidx.compose.ui.geometry.Offset(pipe.x, pipe.gapY + 150),
                     size = androidx.compose.ui.geometry.Size(100f, size.height - pipe.gapY - 150)
                 )
